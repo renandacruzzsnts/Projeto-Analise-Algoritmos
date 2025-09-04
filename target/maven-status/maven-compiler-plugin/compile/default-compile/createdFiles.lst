@@ -1,0 +1,13 @@
+org/yourcompany/yourproject/interface_grafica/ResultsTableView.class
+org/yourcompany/yourproject/ordenacao/SortingAlgorithm.class
+org/yourcompany/yourproject/ordenacao/HeapSort.class
+org/yourcompany/yourproject/ordenacao/QuickSort.class
+org/yourcompany/yourproject/utilidades/DataGenerator.class
+org/yourcompany/yourproject/SortingAlgorithms.class
+org/yourcompany/yourproject/ordenacao/BubbleSort.class
+org/yourcompany/yourproject/ordenacao/MergeSort.class
+org/yourcompany/yourproject/ordenacao/InsertionSort.class
+org/yourcompany/yourproject/interface_grafica/PerformanceChartView.class
+org/yourcompany/yourproject/desempenho/Metrics.class
+org/yourcompany/yourproject/desempenho/BenchmarkRunner.class
+org/yourcompany/yourproject/ordenacao/SelectionSort.class
