@@ -4,12 +4,12 @@ package org.analise.projeto.ordenacao;
  * Implementação do algoritmo Quick Sort
  */
 public class OrdenacaoRapida implements AlgoritmoDeOrdenacao {
-    
+
     @Override
     public void sort(int[] arr) {
         quickSort(arr, 0, arr.length - 1);
     }
-    
+
     private void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
@@ -17,7 +17,7 @@ public class OrdenacaoRapida implements AlgoritmoDeOrdenacao {
             quickSort(arr, pi + 1, high);
         }
     }
-    
+
     private int partition(int[] arr, int low, int high) {
         int pivot = arr[high];
         int i = (low - 1);
@@ -28,16 +28,16 @@ public class OrdenacaoRapida implements AlgoritmoDeOrdenacao {
                 arr[i] = arr[j];
                 arr[j] = temp;
             }
+
         }
         int temp = arr[i + 1];
         arr[i + 1] = arr[high];
         arr[high] = temp;
         return i + 1;
     }
-    
+
     @Override
     public String getName() {
         return "Quick Sort";
     }
 }
-
